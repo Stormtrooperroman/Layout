@@ -1,0 +1,48 @@
+#main_text{
+    text-align: center;
+    margin: 20px;
+}
+#img_main{
+    margin: 20px;
+    filter: invert(0%);
+    transition: filter 5s;
+}
+
+#img_main:hover{
+    filter: invert(100%);
+    transition: filter 5s;
+}
+
+#news_text{
+    margin: 20px;
+}
+
+#img_news_1{
+    filter: sepia(0%);
+    transition: filter 5s;
+}
+
+#img_news_2{
+    transition: filter 5s;
+    filter: saturate(100%)
+}
+
+#img_news_3{
+    transition: filter 5s;
+    filter: opacity(100%)
+}
+
+#img_news_1:hover{
+    filter: sepia(100%);
+    transition: filter 5s;
+}
+
+#img_news_2:hover{
+    transition: filter 5s;
+    filter: saturate(300%)
+}
+
+#img_news_3:hover{
+    transition: filter 5s;
+    filter: opacity(0%)
+}
